@@ -1,0 +1,29 @@
+1. What is a computer?
+Answer: Computer is an electronically programmable device, that stores and processes data, often in 
+binary form, in accordance with commands from a variable programme.
+
+2. What is RAM?
+Answer: RAM is a computer hardware that is connected to processor with databus, which is of 
+semiconductor technology, which acts as a bridge between slow magnetic Hard disk and high speed 
+semiconductor processor. Data is read from Hard disk to Processor with the help of RAM. As RAM is 
+closer to processor they are called Primary Memory.
+
+3. Where is data stored in a computer?
+Answer: Data is stored on Hard Disk in a computer as it is non volatile in nature.
+
+4. What is that input device used to type text and numbers on a document in the computer system?
+Anwser: Keyboard is the input device.
+
+5. What are the output devices?
+Answer: Hardware devices which display or print information from the computer are output devices.
+ex: monitor, printer, speaker.
+
+6. Which is the input device that allows a user to move the cursor or pointer on the screen?
+Answer: Mouse is the input device.
+
+7. Which language is directly understood by the computer without a translation program?
+Answer: Machine level language are the code written using 0s and 1s are easily understood without any 
+translation program
+
+8. What are Input devices?
+Answer: Hardware which help to input data into the computers are called input devices. 
