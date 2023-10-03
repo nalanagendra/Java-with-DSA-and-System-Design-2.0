@@ -1,0 +1,58 @@
+1. What is statically typed and dynamically typed Programming Language?
+Answer: While creating the variable some languages must know the type of variable during the compile
+time and type must be explicitly mentioned. These type of languages are known as statically typed 
+languages. The type of variables will be determined by the compiler during run time based on the 
+usage, such type of languages are known as dynamically typed languages.
+
+2. What is the variable in Java?
+Answer: Variables are the containers to store data/information during the life cycle of a program.
+
+3. How to assign a value to a variable?
+Answer: 1. Declare the variable with correct type and simoultaneously assign the variable.
+        var_type varName = value;
+
+4. What are primitive datatypes in Java?
+Answer: Primitive datatypes are simple datatypes which hold basic data. These datatypes has only value 
+but no methods. Eg: byte, short, int, long, float, double, char and boolean.
+
+5. What are identifiers in Java?
+Answer: Identifier is the name given to a package, class, interface, method or variable.
+
+6. List the Operators in Java.
+Answer: 
+1. Arithmetic operators: Addition(+), Subtraction(-), Multiplication(*), Division(/), Remainder(%).
+2. Logical Operator: AND(&&), OR(||), NOT(!).
+3. Unary operators: increment(++), decrement(--).
+4. Assignment Operator: assign(=).
+5. Relational Operator: Lessthan(<), greaterThan(>), LessThanorEqual(<=), GreaterThanorEqual(>=),
+    notEqual(!=), equal(==).
+
+7. Explain about increment and decrement operators and give an examples.
+Answer: 
+Increment Operator: Increment operators are unary operators which increase the current value of operand 
+by one. There are two types of increment operators 
+1. Pre-increment operator: Eg: 
+    int num1 = 10;
+    int num2 = ++num1;
+    here firstly the value of num1 is incremented and then incremented value is assigned to num2.
+    both the values of num1 and num2 will be 11 here.
+
+2. Post-increment operator: 
+Eg: int num1 = 10;
+    int num2 = num1++;
+    here fistly the value of num1 is assigned to num2 and then num1 is incremented. At the end the value
+    of num1 us 11 and value of num2 is 10.
+
+Decrement Operator: Decrement operators are unary operators which decrease the current value of 
+operands by one. There are two types of decrement operators.
+1. Pre-decrement operator: 
+eg: int num1 = 10;
+    int num2 = --num1;
+    here fistly the value of num1 will be decremented and then assigned to num2. So at the end values 
+    of both num1 and num2 will be 9.
+
+2. Post decrement operator: 
+    int num1 = 10;
+    int num2 = num1--;
+    here initially the value of num1 will be assigned to num2. So the value of num2 will be 10, while the value 
+    of num1 will be decremented to 9.
