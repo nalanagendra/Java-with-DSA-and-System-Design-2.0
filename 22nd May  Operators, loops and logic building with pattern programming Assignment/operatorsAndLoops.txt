@@ -1,0 +1,102 @@
+1. What are conditional operators in Java?
+Ans: Conditional operators are also known as ternary operators in Java. They are the shorter form of 
+writing if-else statements. This operator has three operands. 
+Syntax: (condition) ? (statement1) : (statement2);
+
+2. What are the types of operators based on the number of operands?
+Ans : There are basically three types of operands based on the number of operands:
+ 1.Unary operator: If there is only one operand in a operator then it is called unary operator.
+    eg: Not(!), unary minus(-), increment operator(++), decrement(--).
+ 2.Binary operator: If there are two operands in a operator then it is called binary operator.
+    eg: Addition(+), Subtraction(-), multiplication(*) etc.,
+ 3.Ternary operator: If there are three operands in an operator then it is called ternary operator.
+    eg: ternary operator(condition ? statement1 : statement2).
+
+3. What is the use of Switch case in Java programming?
+Ans: Switch case is a multi way branch statement.
+     The main use is duplicate case values are not allowed.
+     There is a strong type checking for the case variable data type.
+     It is more like the if-else-if ladder.
+Syntax : 
+    switch(statement) {
+        case a: {
+            statements;
+            break;
+        } case b: {
+            statements;
+            break;
+        }default: {
+            statements;
+            break;
+        }
+    }
+
+4. What are the priority levels of arithmetic operation in Java?
+Ans: So the precedence of operators for arithmetic operation is such that,
+    Multiplication(*) and division(/) takes higher precedence than Addition(+) and Subtraction(-).
+
+5. What are the conditional Statements and use of conditional statements in Java?
+Ans: Conditional operators are the operators as the name suggests conditionally execute the statements
+based on the condition. Basically a condition is tested, based on the results from the condition the
+statements are executed.
+Syntax : 
+    if (condition) {
+        statements;
+    } else {
+        statements;
+    }
+If the conditions are true then statements of the If block are executed, else the statements from else
+block will be executed.
+It is mainly used to execute certain statements conditionally based on the truthyness of the conditions.
+
+6. What is the syntax of if else statement?
+Ans: The syntax of if-else statement is: 
+    Syntax : 
+    if (condition) {
+        statements;
+    } else {
+        statements;
+    }
+Each if or else block can have multiple statements in the block, which will be executed based on the
+condition.
+
+7. What are the 3 types of iterative statements in Java?
+Ans: The three types of iterative statemets in Java are:
+    For Loop: This is syntactically compact form of loop, which is basically helpful if user already knows 
+how many times the loop statements has to run.
+ Syntax: for (initialization; condition; update of loop variable) {
+    statement;
+ }
+    While Loop: This loop is used when the user doesn't know how many times the loop body has to run
+ Syntax: 
+    initialization;
+    while(condition) {
+        statement;
+        update of loop variable;
+    }
+
+    do-while loop: This loop is used when user wants the loop to run atleast one time even if the 
+condition is not satisfied.
+ Syntax:
+    initialization;
+    do {
+        statement;
+        updation if loop variable;
+    } while(condition);
+
+8. Write the difference between for loop and do-while loop?
+Ans: For loop is mainly used if the number of times the loop body execution is known, do-while loop is 
+used if loop has to execute atleast once even if the condition is false.
+ The syntax of for loop is compact, while the syntax of do-while loop is not compact.z
+ The body of do-while loop will be executed atleast once, while in for loop the body will be executed 
+based on the condition.
+
+9. Write a program to print numbers from 1 to 10.
+Code: 
+    public class PrintNumbers {
+        public static void main(String[] args) {
+            for (int i = 1; i <= 10; i ++) {
+                System.out.println(i);
+            }
+        }
+    }
