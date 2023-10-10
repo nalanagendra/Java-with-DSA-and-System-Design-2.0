@@ -1,0 +1,43 @@
+1. What is Git?
+Ans: Git is a version control system software which helps to take care of development by saving snapshots 
+of codebase at all stages of development process. It helps to share, merge, track all versions of code.
+
+2. What do you understand by the term version control system?
+Ans: Version Control System means tracking the code changes, by storing the various snapshots for 
+the developed code.It also helps in tracking who made changes like history of files. It also helps in coding
+collaborations.
+
+3. What is GitHub?
+Ans: GitHub is a cloud storage for remote repositories. It is a place where developers save their 
+code contributions by pushing from the local repositories.
+
+4. Mention some popular Git hosting services.
+Ans: Github, Gitlab, Bitbucket, etc.,.
+
+5. Different types of version control systems.
+Ans: There are mainly two types of version control systems,
+ 1. Centralized Version Control System:
+    In this type of VCS all files are stored on a central remote repository and all the individual contributors
+must periodically commit and update the codebase.
+ 2. Distributed Version Control System:
+    In thus typs if VCS all files are also stored on a central remote repository, but a local repository
+is also maintained on the computers of individual contributors. Initially the developers will stage all the 
+untracked changes and unstaged changes on the local system. Then commits to the local repository. 
+Once committed all the changes will be pushed to the remote server.
+
+6. What are the benefits of using GIT?
+Ans: Benefits of using GIT are:
+    1. Tracking code changes.
+    2. Helps in collaboration of multiple contributors in the form of different modules.
+    3. Tracking the history of codebase and track the developer responsible for particular contribution.
+
+7. What is a GIT repository?
+Ans: Git repository is a folder tracked by GIT. Basically GIT will check for changes in the particular folder 
+and helps in tracking the changes. The contributor can commit the changes to save the snapshots for
+future reference.
+
+8. How can you initialize a repository in GIT?
+Ans: One can initialize the Git repository by typing the command 
+    git init 
+This will ask for project details through the command line where developer has to enter answers for 
+the questions.
