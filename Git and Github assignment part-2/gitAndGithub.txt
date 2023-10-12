@@ -1,0 +1,66 @@
+1. How to check if git is available on your system?
+Ans: Open the command prompt or terminal, then type the command
+    git
+    or 
+    git version
+    or 
+    git --version
+if git is installed it will display all the details of installed versions of git,
+else will throw command not found error.
+
+2. How to initialize a new git repository?
+Ans: We create a appropriate folder on the local system.
+    Navigate to the folder where one wants to initialize the git.
+    then type the command,
+        git init
+    This will add a .git hidden folder to the working area.
+    The command prompt will prompt some details related to the project.
+    Give enter the details. Thus we can initialize the new git repository.
+
+3. How to tell git about your name and email?
+Ans: To tell about name and email, 
+    we have to configure either local git or global git in our systems.
+    To configure name at global level we use the command
+        git config --global user.name <username>
+    To configure email at global level we use the command,
+        git config --global user.email <user email>
+    
+    To check the correctness of the entered values,
+        git config --list
+    which will all info entered by the git user.
+
+4. How to add a file to the staging area?
+Ans: To add the file to the staging area, we have to,
+    1. create a new file or make changes to the existing file and save the file.
+    2. git will recognise the changes in the current working directory.
+    3. when we check the status using
+        git status 
+    it will return all the changes made , such as changes in files and untracked files in the working area.
+    4. Then we have use the command 
+        git add . => to add all the changed or new files to the staging area 
+            or 
+        git add <filename> => to add the filenames mentioned to the staging area.
+
+5. How to remove a file from the staging area?
+Ans: To remove a file from the staging area, we can use the command,
+    git rm --cached <file>
+
+6. How to make a commit?
+Ans: Once the required files are added to the staging area, the files are ready to be committed.
+To commit we use the command,
+    git commit -m <meaningful commit message>
+
+7. How to send your changes to the remote repository?
+Ans: To send the changes to the remote repository we use,
+    git push
+command.
+
+8. What is the difference between clone and pull?
+Ans: Clone: Clone means to create a local repository in the system. All the files from the remote 
+    repository is added to the local repository. To clone we use the command,
+        git clone <url> => where url is the remote repo url.
+    Pull: Whenever multiple developers or contributors are working on the same project push their 
+    local changes to the remote repo, the other developers can access the same by pulling the changes 
+    with command,
+        git pull 
+    which will fetch the changes in the remote repo and pull the changes to the local repo.
