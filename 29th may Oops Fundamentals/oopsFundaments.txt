@@ -1,0 +1,84 @@
+1. How to create an object in Java?
+Ans: Objects in Java are created with help of classes. Class acts as a blue print for the class.
+eg:
+    class Test {
+        public int a;
+        public String name;
+        public void printDetails() {
+            system.out.println(a " , " name);
+        }
+    }
+
+    public class Main {
+        public static void main(string[] args) {
+            Test ref = new Test();
+        }
+    }
+
+Initially a class Test is created. Now in the Main class to create an object of class Test, we
+use the keyword "new". When this new keyword and class name Test is invoked, a new object is created 
+in the heap memory and a reference to this variable is created in the stack memory.
+
+2. What is the use of new keyword in Java?
+Ans: new keyword is used to create a new object from a class in Java.
+
+3. What are the different types of variables in Java?
+Ans: Different types of variables in Java are: 
+    1. Instance variable
+    2. Local variable
+    3. Static variable
+
+4. What is the difference between instance variable and local variable?
+Ans: The difference between instance variable and local variable are:
+    1. Instance variables are created on heap memory while local variables are created on stack 
+    memory.
+    2. The lifetime of instance variables is that of lifetime of objects, while lifetime of local
+    variables is that of block with which it is associated on the stack.
+    3. Instance variables are declared on the class body, while local varibales are declared within 
+    constructor or methods.
+
+5. In which area memory is allocated for instance variable and local variable?
+Ans: Instance variables will be allocated on heap memory while local variable are allocated on stack
+memory.
+
+6. What is method overloading?
+Ans: Method overloading is a feature enabled in Java that makes the developers to implement methods 
+with same method name but different signatures. Signatures of methods may differ either in quantity or
+datatype of parameters.
+
+eg: 
+class Calculator {
+    public byte add (byte a, byte b) {
+        int sum = a + b;
+        return (byte)sum;
+    }
+    public short add (short a, short b) {
+        int sum = a + b;
+        return (short)sum;
+    }
+    public int add (int a, int b) {
+        int sum = a + b;
+        return sum;
+    }
+    public long add (long a, long b) {
+        long sum = a + b;
+        return sum;
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+        byte byteSum = calculator.add((byte) 10, (byte) 20);
+        short shortSum = calculator.add((short) 100, (short) 200);
+        int intSum = calculator.add(1000, 2000);
+        long longSum = calculator.add(10000L, 20000L);
+
+        System.out.println("Byte Sum: " + byteSum);
+        System.out.println("Short Sum: " + shortSum);
+        System.out.println("Int Sum: " + intSum);
+        System.out.println("Long Sum: " + longSum);
+    }
+}
+
+In the above example one can notice that all the methods in the Calculator class has same method 
+name (add), which accepts parameters of different datatypes.
